@@ -1,0 +1,34 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+}
+
+a{
+    /* color : #C0ffee; */
+    border: 1px solid black;
+    padding : 50px auto;
+    text-align: none;
+    margin : 50px auto;
+    width : 300px;
+    background-color: #f0f0f0;
+    border : 1px solid;
+    box-sizing: border-box;   
+}
+a:visited{
+    color : #6f4e37;
+}
+
+a {
+    color : #C0ffee;
+}
+
+.size_3232{
+    width: 320px;
+    height: 320px;
+    /* position : absolute; */
+    top:0px;
+    right:0px;
+    border : 5px solid;
+    border-color : #6f4e37;
+    border-radius: 50%;
+}
