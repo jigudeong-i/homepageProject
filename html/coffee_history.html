@@ -1,31 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>템플릿</title>
+    <title>커피의 장점과 단점</title>
     <style>
-        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #faf8f5;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .container img {
+            width: 350px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .text-box {
+            max-width: 750px;
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .text-box h2 {
+            color: #4e342e;
+            margin-bottom: 15px;
+        }
+
+        .advantage, .disadvantage {
+            margin-bottom: 25px;
+        }
+
+        .advantage h3 {
+            color: #2e7d32;
+        }
+
+        .disadvantage h3 {
+            color: #c62828;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container img {
+                width: 100%;
+            }
+
+            .text-box {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>커피의 역사</h1>
-    <hr />
-    <h3 class="history_head">1. 칼디의 전설</h3>
-    <p></p>
-    <hr />
-    <h3 class="history_head">2. 중동으로의 전파</h3>
-    <p></p>
-    <hr />
-    <h3 class="history_head">3. 중동에서 유럽으로</h3>
-    <p></p>
-    <hr />
-    <h3 class="history_head">4. 세계화와 현대</h3>
-    <p></p>
-    <hr />
-    <h3 class="history_head">5. 한국에서의 커피</h3>
-    <p></p>
-    
 
-    
+    <div class="container">
+        <img src="c231ebde-34f9-43c4-9ccb-c2aaffed7ddf.png" alt="커피 장단점 이미지">
+
+        <div class="text-box">
+            <h2>커피의 장점과 단점</h2>
+
+            <div class="advantage">
+                <h3>✅ 장점</h3>
+                <ul>
+                    <li>집중력과 기억력 향상</li>
+                    <li>항산화 작용으로 노화 방지</li>
+                    <li>기분 전환 및 스트레스 해소</li>
+                    <li>지방 분해와 신진대사 촉진</li>
+                    <li>파킨슨병·알츠하이머 예방 가능성</li>
+                </ul>
+            </div>
+
+            <div class="disadvantage">
+                <h3>⚠️ 단점</h3>
+                <ul>
+                    <li>불면증 유발</li>
+                    <li>속 쓰림 및 위산 과다</li>
+                    <li>카페인 의존성 및 금단 증상</li>
+                    <li>철분·칼슘 흡수 방해</li>
+                    <li>일시적인 혈압 상승</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
