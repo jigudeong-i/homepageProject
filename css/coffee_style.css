@@ -1,6 +1,6 @@
 body{
     background-color: burlywood;
-    text-align : center;
+    /* text-align : center; */
     cursor: url('../img/커서용3.png'), auto;
     margin : 0px;
     /*box-sizing: margin-box;*/
@@ -26,12 +26,12 @@ a{
     font-family : 'Nanum-gothic';
     color : #020721;
     border: 3px solid #6f4e37;
-    padding : 10px auto;
-    text-align: none;
-    margin : 10px auto;
-    width : 300px;
     background-color: #f0f0f0;
     box-sizing: border-box;
+    text-decoration: none;
+    margin :auto;
+    display: flex;
+    width : 250px;
 }
 a:visited{
     color : #6f4e37;
