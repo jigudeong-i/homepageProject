@@ -1,42 +1,73 @@
+body{
+    background-color: burlywood;
+    text-align : center;
+    cursor: url('../img/커서용3.png'), auto;
+    margin : 0px;
+    /*box-sizing: margin-box;*/
+    border: 30px solid #6f4e37;
+    height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
 
+.BGC_Menu{
+    background-color: darkgreen;
+    border: 30px solid #6f4e37;
+    margin : 0px;
+}
+
+.BGC{
+    background-color: burlywood;
+}
+/* 메인 메뉴 배경색*/
 
 a{
-    /* color : #C0ffee; */
-    border: 1px solid black;
-    padding : 50px auto;
+    font-family : 'Nanum-gothic';
+    color : #020721;
+    border: 3px solid #6f4e37;
+    padding : 10px auto;
     text-align: none;
-    margin : 50px auto;
+    margin : 10px auto;
     width : 300px;
     background-color: #f0f0f0;
-    border : 1px solid;
-    box-sizing: border-box;  
-    
+    box-sizing: border-box;
 }
 a:visited{
     color : #6f4e37;
 }
 
-body{ 
-    cursor : url('../img/커서용3.png'), auto;
+.size_1616{
+    width: 160px;
+    height: 160px;
+    border : 5px solid;
+    border-color : #6f4e37;
 }
+/* 사각형, 160x160 사이즈에 5px 테두리 실선 */
 
-a {
-    color : #C0ffee;
-}
 
 .size_3232{
     width: 320px;
     height: 320px;
-    /* position : absolute; */
     top:0px;
     right:0px;
     border : 5px solid;
     border-color : #6f4e37;
     border-radius: 50%;
+    margin : auto;
 }
+/* 원형, 320x320 사이즈에 가운데 위치, 5px 테두리 실선*/
 
-.size_4242 {
-     width: 420px;
-    height: 420px;
-    
+.size_4848{
+    width: 480px;
+    height: 480px;
+    border : 5px solid;
+    border-color : #6f4e37;
 }
+/* 사각형, 480x480 사이즈에 5px 테두리 */
+
+.fade:hover{
+    transition: opacity 0.5s ease;
+    opacity:0;
+}
+/* 0.5초간 천천히 사라지게 하는 이펙트 */
