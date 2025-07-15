@@ -1,29 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <link rel = "stylesheet" href="../css/coffee_style.css">
+    <head>
     <meta charset="UTF-8">
     <title>템플릿</title>
     <style>
-
+        .explain{
+            box-sizing: 400px;
+        }
     </style>
 </head>
 <body>
     <h2>커피의 종류</h2>
     <details>
         <summary>에스프레소 부류</summary>
-        <p>아메리카노, 카페라떼, 바닐라라떼, 모카라떼</p>
-    </details>
-    <hr />
-    <details>
-        <summary>핸드 드립 부류</summary>
-        <p>핸드드립</p>
-    </details>
-    <hr />
-    <details>
-        <summary>침출식 부류</summary>
-        <p>콜드브루, 알코올 인퓨전</p>
+        <p>에스프레소는 커피의 베이스로 널리쓰이는 부류이며,<br />다른 음료를 섞은 방식에 따라 지칭이 달라진다.</p>
+        <details>
+            <summary>에스프레소</summary>
+            <p class="explain">본래는 분쇄원두에 고열의 증기로 원액을 추출하는 방식을 뜻하였으나 현대에 와서는 커피 원액 그 자체를 뜻하는
+                단어가 되었다. 쓴맛과 신맛이 상대적으로 강한것이 특징이며, 보통은 너무 쓴탓에 그냥 먹기는 힘들어
+                설탕을 섞어 먹는것이 기본이다. 맛이 강한것을 토대로 다른 맛을 섞는데 자주 이용된다.</p>
+        </details>
+        <details>
+            <summary>아메리카노</summary>
+            <p class="explain">에스프레소를 생수로 희석한 방식이며, 가격이 비싸고 맛이 너무 강했던 커피의 양을 늘리고 희석하고자 만들어진 방식이라는 이야기가 있다.
+               에스프레소에 비해 상대적으로 약한 맛이 특징이며, 한국에서는 가장 대표적인 커피메뉴이기도 하다.</p>
+            </details>
+        
+        <details>
+            <summary>카페라떼(카푸치노)</summary>
+                <p class="explain">단적으로 말하면 에스프레소를 우유와 섞은 방식이며, 증기를 활용하여 거품을 낸 우유와 그 거품과 섞어먹는 방식을 말한다.
+                   커피의 쓴맛을 우유의 단맛으로 중화시킨맛이 특징이며, 거품을 활용한 라떼아트가 유명하다.</p>
+        </details>
+        
+        <details>
+            <summary>바닐라라떼, 모카라떼</summary>
+                <p class="explain">카페라떼에 시럽을 통해 향과 맛을 추가한 형태로, 시럽의 종류에 따라 호칭이 달라진다.
+                모카라떼는 모카 원두로 내린 커피의 특징인 초콜릿향을 모티브로 하여 카페라떼에 초콜릿시럽을 넣은 형태.</p>
+            </details>
+        
+        <details>
+            <summary>아포카토</summary>
+            <p class="explain">에스프레소에 바닐라아이스크림을 넣어서 먹는 형태. 에스프레소의 뜨거움과 쓴맛을 아이스크림으로 중화시킨 형태이다.</p>
+        </details>
+        
+        <details>
+            <summary>카페 로마노</summary>
+            <p class="explain">에스프레소에 레몬즙이나 시럽, 혹은 한조각의 생 레몬을 띄워마시는 방식.</p></details>
     </details>
 
+    <hr />
+
+    <details>
+        <summary>드립커피</summary>
+        <p class="explain">드리퍼와 거름망을 활용해서 커피를 추출하는 방식이며, 에스프레소에 상대적으로 신맛이 굉장히 적으며, 내리는 방식에 따라
+            카페인 추출량, 쓴맛의 정도, 향의 강도가 모두 달라지는것이 특징이다. 머신이 필요한 에스프레소에 비해 
+            준비물이 굉장히 적어 접근성이 좋은것이 특징이다.</p>
+    </details>
+
+    <hr />
+
+    <details>
+        <summary>침출식 부류(콜드브루)</summary>
+        <p class="explain">냉수에 오랜시간 추출하는 방식으로, 한국에는 콜드브루 라는 방식으로 알려져있다. 
+           향은 에스프레소와 드립커피에 비해 상대적으로 약하나, 단맛과 지방맛이 강한편이다.</p>
+    </details>
+    <details>
+        <summary>달임식 커피</summary>
+        <p class="explain">튀르키예식 커피로도 불리는 커피의 원조로, 달임 냄비를 활용해 우려내는 방식으로, 
+           달군 모래를 열원으로 하여 우려낸다는 특징이 있다. 제조레시피 특성상 굉장한 단맛이 난다. </p>
+    </details>
     
 </body>
 </html>
