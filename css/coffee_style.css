@@ -9,10 +9,15 @@ a{
     width : 300px;
     background-color: #f0f0f0;
     border : 1px solid;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    
 }
 a:visited{
     color : #6f4e37;
+}
+
+body{ 
+    cursor : url('../img/커서용3.png'), auto;
 }
 
 a {
