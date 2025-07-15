@@ -3,18 +3,30 @@
     <link rel = "stylesheet" href="../css/coffee_style.css">
     <head>
     <meta charset="UTF-8">
-    <title>템플릿</title>
+    <title>커피메뉴</title>
     <style>
-        .explain{
-            box-sizing: 400px;
+
+        details summary {
+            list-style: none;
         }
+
+        .explain{
+            margin : auto;
+            color : #020721;
+            text-align: left;
+            box-sizing: border-box;
+            width : 600px;
+            background-color : whitesmoke;
+            border : 3px solid #6f4e37;
+        }
+        
     </style>
 </head>
 <body>
     <h2>커피의 종류</h2>
     <details>
         <summary>에스프레소 부류</summary>
-        <p>에스프레소는 커피의 베이스로 널리쓰이는 부류이며,<br />다른 음료를 섞은 방식에 따라 지칭이 달라진다.</p>
+        <p class="explain">에스프레소는 커피의 베이스로 가장 보편적으로 널리쓰이는 부류이며,<br />다른 음료를 섞은 방식에 따라 지칭이 달라진다.</p>
         <details>
             <summary>에스프레소</summary>
             <p class="explain">본래는 분쇄원두에 고열의 증기로 원액을 추출하는 방식을 뜻하였으나 현대에 와서는 커피 원액 그 자체를 뜻하는
