@@ -1,7 +1,4 @@
-body{
-    background-color: burlywood;
-    text-align: center;
-}
+
 
 a{
     /* color : #C0ffee; */
@@ -31,4 +28,10 @@ a {
     border : 5px solid;
     border-color : #6f4e37;
     border-radius: 50%;
+}
+
+.size_4242 {
+     width: 420px;
+    height: 420px;
+    
 }
